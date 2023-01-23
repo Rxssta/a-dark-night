@@ -1,0 +1,527 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1669924616783550, "dur":1625, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924616785183, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1669924616785234, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1669924616785251, "dur":370, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1669924616785656, "dur":714, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924616786370, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618607890, "dur":384, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608274, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608301, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608306, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608315, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608319, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608333, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608336, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608344, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608346, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608353, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608356, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608363, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608366, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608373, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608375, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608382, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608451, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618608547, "dur":2186, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1669924616785998, "dur":377, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924616786376, "dur":6303, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924616792696, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669924616792706, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924616794928, "dur":684, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669924616795619, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669924616795748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924616796184, "dur":13150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669924616809337, "dur":10525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1669924616819867, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924616819878, "dur":10713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1669924616830680, "dur":85745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924616916428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924616916908, "dur":2291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924616919280, "dur":761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night.exe" }}
+,{ "pid":12345, "tid":1, "ts":1669924616920045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924616920050, "dur":8087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night.exe" }}
+,{ "pid":12345, "tid":1, "ts":1669924616928219, "dur":59188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924616987413, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924616991543, "dur":5001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924616996621, "dur":48546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617045174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924617045183, "dur":3855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617049164, "dur":65615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617114785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924617114793, "dur":123036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617237914, "dur":43422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617281341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924617281351, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617283331, "dur":38805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617322142, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924617322153, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617324017, "dur":101406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617425431, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924617425443, "dur":25879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617451403, "dur":17034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617468443, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924617468452, "dur":10542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617479065, "dur":42947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617522018, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924617522031, "dur":2258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617524375, "dur":14956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617539336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924617539346, "dur":3461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617542869, "dur":18892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617561768, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924617561780, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617563662, "dur":17428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617581097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924617581106, "dur":15028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617596339, "dur":65893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617662238, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924617662247, "dur":48782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617711094, "dur":91131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617802231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924617802241, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617804540, "dur":64608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617869153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924617869162, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924617870714, "dur":212646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924618083367, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924618083377, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924618086228, "dur":295020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924618381254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669924618381263, "dur":3711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669924618385056, "dur":222888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924616786031, "dur":354, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924616786385, "dur":6389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924616792775, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1669924616793103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924616798909, "dur":261081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1669924617060078, "dur":66378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617126462, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924617126472, "dur":110189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617236742, "dur":80413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617317162, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924617317172, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617319079, "dur":56420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617375507, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924617375519, "dur":3561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617379195, "dur":57152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617436444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924617436454, "dur":8360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617444888, "dur":17128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617462019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924617462025, "dur":12858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617474945, "dur":30459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617505410, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924617505418, "dur":2875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617508364, "dur":19541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617527911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924617527921, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617529789, "dur":22250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617552044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924617552052, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617553664, "dur":29892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617583562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924617583571, "dur":19042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617603150, "dur":287829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617890987, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924617890997, "dur":3494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617894554, "dur":89952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924617984512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924617984523, "dur":48725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924618033402, "dur":52516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924618085923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924618085931, "dur":17373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924618103366, "dur":173176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924618276548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924618276559, "dur":3184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924618279826, "dur":160322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924618440180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669924618440192, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669924618442987, "dur":164783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924616786024, "dur":355, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924616786379, "dur":6453, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924616792833, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1669924616793123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924616800237, "dur":14916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1669924616815240, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1669924616815429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924616815773, "dur":11638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1669924616827495, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1669924616827690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924616827701, "dur":240295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1669924617068075, "dur":63029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617131109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924617131118, "dur":106926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617238132, "dur":163261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617401400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924617401411, "dur":6388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617407874, "dur":21922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617429804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924617429815, "dur":7749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617437668, "dur":24188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617461861, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924617461871, "dur":12862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617474804, "dur":45811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617520618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924617520626, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617524522, "dur":70265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617594823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924617594832, "dur":20327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617615230, "dur":51109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617666379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924617666388, "dur":37147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617703609, "dur":91573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617795187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924617795196, "dur":2548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617797816, "dur":23985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617821807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924617821816, "dur":1920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617823823, "dur":1209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617825039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924617825049, "dur":2940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617828044, "dur":18915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617846966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924617846976, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617849040, "dur":66662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617915707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924617915716, "dur":4246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924617920029, "dur":134653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924618054687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924618054696, "dur":12599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924618067367, "dur":300235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924618367608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669924618367618, "dur":5123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669924618372804, "dur":235009, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924616786065, "dur":324, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924616786389, "dur":6375, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924616792765, "dur":11792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1669924616804565, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924616804580, "dur":8417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1669924616813069, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1669924616813252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924616813261, "dur":241149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1669924617054499, "dur":19594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617074099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924617074107, "dur":3225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617077408, "dur":17321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617094735, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924617094743, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617096510, "dur":17567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617114085, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924617114096, "dur":2279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617116447, "dur":102663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617219117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924617219126, "dur":59242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617278576, "dur":116083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617394665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924617394711, "dur":3953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617398757, "dur":34530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617433294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924617433304, "dur":19940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617453305, "dur":57859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617511170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924617511178, "dur":11292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617522547, "dur":20025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617542605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924617542614, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617544856, "dur":124336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617669198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924617669208, "dur":99150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617768899, "dur":48085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617816990, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924617816999, "dur":3876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617820944, "dur":28435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617849384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924617849392, "dur":1912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924617851364, "dur":266745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924618118116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924618118126, "dur":2517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924618120726, "dur":147451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924618268183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924618268193, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924618269762, "dur":159992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924618429760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669924618429769, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669924618431731, "dur":175934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924616786100, "dur":291, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924616786391, "dur":6294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924616792697, "dur":10693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1669924616803400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924616803468, "dur":5813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1669924616809356, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1669924616809545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924616809646, "dur":4748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1669924616814482, "dur":15351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1669924616829841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924616829855, "dur":3808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1669924616833829, "dur":105903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924616939737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924616939859, "dur":34330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924616974276, "dur":18111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924616992393, "dur":158, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924616994921, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924616996852, "dur":37824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617034682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924617034691, "dur":3890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617038662, "dur":43372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617082041, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924617082051, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617083716, "dur":29407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617113170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924617113181, "dur":123415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617236684, "dur":107658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617344348, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924617344358, "dur":1896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617346329, "dur":68405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617414745, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924617414759, "dur":19322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617434161, "dur":18817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617452983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924617452992, "dur":31205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617484272, "dur":54707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617538985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924617538993, "dur":3479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617542536, "dur":21948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617564490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924617564500, "dur":2598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617567222, "dur":22397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617589626, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924617589637, "dur":6737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617596432, "dur":30119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617626557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924617626567, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617628208, "dur":54679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617682896, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924617682909, "dur":28657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617711639, "dur":1497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617713142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924617713151, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617715122, "dur":73830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617788958, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924617788968, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617791400, "dur":43850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617835257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924617835267, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924617836925, "dur":310443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924618147372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924618147381, "dur":11109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924618158563, "dur":51029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924618209598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924618209607, "dur":3885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924618213569, "dur":389508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924618603081, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669924618603088, "dur":4328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669924618607600, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1669924618607608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924616786144, "dur":251, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924616786395, "dur":6287, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924616792696, "dur":32512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1669924616825214, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924616825909, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1669924616828501, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1669924616828704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924616828714, "dur":90809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1669924616919608, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1669924616919834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924616927557, "dur":52756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1669924616980396, "dur":22793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617003196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924617003206, "dur":2690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617005982, "dur":46379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617052366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924617052375, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617055648, "dur":372546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617428200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924617428209, "dur":6389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617434675, "dur":16547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617451228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924617451237, "dur":11029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617462332, "dur":56420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617518794, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924617518806, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617520684, "dur":46043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617566734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924617566745, "dur":30945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617597771, "dur":18643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617616419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924617616427, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617618013, "dur":47853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617665874, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924617665885, "dur":36671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617702639, "dur":120688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617823331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924617823340, "dur":4516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617827977, "dur":61898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617889883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924617889944, "dur":4098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924617894109, "dur":204990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924618099104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924618099112, "dur":2045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924618101219, "dur":45721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924618146947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924618146957, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924618148626, "dur":187460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924618336089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924618336096, "dur":2447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669924618338619, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669924618338686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924618338693, "dur":3264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669924618342039, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1669924618342234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924618342241, "dur":1840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1669924618344145, "dur":1070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1669924618345220, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924618345253, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1669924618346639, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669924618346699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924618346706, "dur":2831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669924618349614, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669924618349683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924618349691, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669924618352009, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669924618352066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924618352072, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669924618354086, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669924618354154, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924618354161, "dur":1696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669924618355935, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669924618356012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924618356021, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669924618358249, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669924618358357, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924618358378, "dur":2188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669924618360634, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1669924618360714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669924618360720, "dur":4928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1669924618365712, "dur":242133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669924616786166, "dur":233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669924616786399, "dur":6288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669924616792697, "dur":559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1669924616793259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669924616802554, "dur":10587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1669924616813213, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1669924616813374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669924616814626, "dur":2633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1669924616817335, "dur":8182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1669924616825521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669924616825531, "dur":2195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1669924616827817, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1669924616828007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669924616828016, "dur":90135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1669924616918241, "dur":209962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1669924617128208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669924617128216, "dur":2975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1669924617131259, "dur":97668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924617228934, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669924617228944, "dur":9129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924617238134, "dur":164803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924617403012, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669924617403022, "dur":34367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924617437460, "dur":32442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924617469931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669924617469939, "dur":10202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924617480210, "dur":22526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924617502743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669924617502752, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924617504647, "dur":191848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924617696499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669924617696506, "dur":14588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924617711163, "dur":274111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924617985280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669924617985292, "dur":26440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924618011799, "dur":43989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924618055794, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669924618055806, "dur":4377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924618060252, "dur":198491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924618258749, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669924618258759, "dur":2308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924618261145, "dur":321615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924618582765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669924618582773, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669924618584419, "dur":23307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924616786189, "dur":213, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924616786403, "dur":6280, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924616792696, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1669924616793188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924616802496, "dur":10504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1669924616813069, "dur":22173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1669924616835247, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924616835257, "dur":81082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1669924616916409, "dur":431081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617347496, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924617347504, "dur":31015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617378596, "dur":16069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617394703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924617394711, "dur":3174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617397952, "dur":40075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617438033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924617438042, "dur":26111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617464222, "dur":16813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617481041, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924617481051, "dur":4638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617485756, "dur":51058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617536819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924617536828, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617538695, "dur":51512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617590213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924617590223, "dur":12625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617602916, "dur":59983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617662906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924617662916, "dur":40611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617703599, "dur":101996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617805602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924617805611, "dur":2548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617808247, "dur":1776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617810030, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924617810042, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617812416, "dur":21277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617833700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924617833709, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617835675, "dur":149076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924617984755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924617984762, "dur":27050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924618011888, "dur":131307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924618143201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924618143209, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924618144890, "dur":139344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924618284241, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924618284253, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669924618286820, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1669924618287052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924618287678, "dur":1515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1669924618289277, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1669924618289369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924618289456, "dur":2135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1669924618291656, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669924618291718, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924618291724, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669924618293425, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1669924618293487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924618293493, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1669924618294965, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1669924618295023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924618295030, "dur":40860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1669924618335958, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669924618336020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924618336027, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669924618337907, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1669924618337982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924618337992, "dur":14263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1669924618352325, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1669924618352393, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924618352398, "dur":1964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1669924618354435, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1669924618354498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924618354505, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1669924618356289, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1669924618356351, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924618356357, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1669924618358795, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669924618358864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924618358874, "dur":2121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669924618361058, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pablo/Desktop/A Dark Night_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1669924618361392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669924618361400, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pablo/Desktop/A Dark Night_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1669924618362876, "dur":245006, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669924618613842, "dur":2750, "ph":"X", "name": "ProfilerWriteOutput" }
+,
